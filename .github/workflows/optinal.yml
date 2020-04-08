@@ -10,7 +10,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       - name: Hello world action step
-        uses: ULL-ESIT-PL-1920/PL-hello-js-action-optional@v1
+        uses: DanielGlezExp/PL-hello-js-action-optional@v1
         id: hello
         with:
           who-to-greet: 'Daniel González Expósito'
